@@ -19,6 +19,8 @@ let work = false;
 let manualStop = false; 
 
 start.addEventListener('click', () => {
+  start.style.display = 'none';
+  stop.style.display = 'unset';
   if(work === false && manualStop == false ){
     interval = setInterval(countDownWork, 1000);
     work = true;
@@ -43,6 +45,8 @@ start.addEventListener('click', () => {
 stop.addEventListener('click', () =>{
   clearInterval(interval);
   manualStop = true;
+  start.style.display = 'unset';
+  stop.style.display = 'none';
 })
 
 reset.addEventListener('click', () => {
