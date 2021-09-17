@@ -1,9 +1,9 @@
 import './style.css'
 
-const workTime = .1;
+const workTime = 25;
 let startingWorkTime = workTime * 60;
 
-const pauseTime = .1;
+const pauseTime = 5;
 let startingPauseTime = pauseTime * 60;
 
 const start = document.getElementById('start');
