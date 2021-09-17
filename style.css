@@ -6,3 +6,14 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+
+button {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 5px rgb(116, 180, 209) solid;
+  border-radius: 20px;
+  padding: 1em 2em;
+  background: white;
+}
